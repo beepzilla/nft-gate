@@ -31,25 +31,26 @@ export default function Home() {
     <div className={styles.container}>
       <Header />
       <h2 className={styles.heading}>NFT Gated Content </h2>
-      <h1 className={styles.h1}>Auth</h1>
+      <h1 className={styles.h1}>laughingHeads</h1>
 
       <p className={styles.explain}>
-        Serve exclusive content to users who own an NFT from <br />
-        your collection, using{" "}
+        you own at least 1 laughingHeads NFT, welcome member <br />
+        may the games begin.  games coming soon{" "}
         <a
           className={styles.link}
-          href="https://portal.thirdweb.com/auth"
+          href="https://https://bafybeibjb6lvqaf5ta2fkngzzbyjefv6az7lkrx364fwsqx32insqz2h5y.ipfs.cf-ipfs.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Auth
+          Public Dashboard Home
         </a>
         .{" "}
       </p>
 
       <div className={styles.card}>
-        <h3>Exclusive unlocked</h3>
-        <p>Your NFT unlocked access to this product.</p>
+        <h3>Exclusive unlocked, You are in</h3>
+        <p>Your NFT unlocked access to this website, 
+          <br />which is nothing now but will be something soon.</p>
 
         {contractMetadata && (
           <div className={styles.nft}>

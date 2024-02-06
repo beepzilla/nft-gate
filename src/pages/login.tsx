@@ -1,3 +1,4 @@
+
 import {
   ConnectWallet,
   MediaRenderer,
@@ -33,14 +34,14 @@ export default function Login() {
     <div className={styles.container}>
       <Header />
       <h2 className={styles.heading}>NFT Gated Content </h2>
-      <h1 className={styles.h1}>Auth</h1>
+      <h1 className={styles.h1}>laughingHeads</h1>
 
       <p className={styles.explain}>
-        Serve exclusive content to users who own an NFT from <br />
-        your collection, using{" "}
+        to gain access you must hold at least 1 laughingHead NFT <br />
+        in your collection, aquire one in the public dashboard{" "}
         <a
           className={styles.link}
-          href="https://portal.thirdweb.com/auth"
+          href="https://bafybeibjb6lvqaf5ta2fkngzzbyjefv6az7lkrx364fwsqx32insqz2h5y.ipfs.cf-ipfs.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -50,8 +51,8 @@ export default function Login() {
       </p>
 
       <div className={styles.card}>
-        <h3>Holder exclusive</h3>
-        <p>To unlock this product, you need:</p>
+        <h3>Holder exclusive, sorry you are not authorized yet.  you are stopped at the gate</h3>
+        <p>To unlock this website, you need:</p>
 
         {contractMetadata && (
           <div className={styles.nft}>
